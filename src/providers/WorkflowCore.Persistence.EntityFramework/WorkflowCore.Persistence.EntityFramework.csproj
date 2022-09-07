@@ -15,6 +15,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>Base package for Workflow-core peristence providers using entity framework</Description>
+    <AssemblyVersion>3.6.65.0</AssemblyVersion>
+    <FileVersion>3.6.65.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Google.Protobuf" Version="3.21.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>

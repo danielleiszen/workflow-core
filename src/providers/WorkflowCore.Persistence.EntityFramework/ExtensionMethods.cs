@@ -11,6 +11,11 @@ namespace WorkflowCore.Persistence.EntityFramework
     {
         private static JsonSerializerSettings SerializerSettings = new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All };
 
+        static ExtensionMethods()
+        {
+            SerializerSettings.Converters.Add(new GrpcTimestampJsonConverter());
+        }
+
         internal static PersistedWorkflow ToPersistable(this WorkflowInstance instance, PersistedWorkflow persistable = null)
         {
             if (persistable == null)            

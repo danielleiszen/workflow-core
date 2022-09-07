@@ -2,6 +2,7 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+//using Microsoft.Extensions.Logging;
 using WorkflowCore.Persistence.EntityFramework.Models;
 
 namespace WorkflowCore.Persistence.EntityFramework.Services
@@ -52,10 +53,16 @@ namespace WorkflowCore.Persistence.EntityFramework.Services
             ConfigureScheduledCommandStorage(commands);
         }
 
+        //public static readonly Microsoft.Extensions.Logging.LoggerFactory _myLoggerFactory =
+        //    new LoggerFactory(new[] {
+        //        new Microsoft.Extensions.Logging.Debug.DebugLoggerProvider()
+        //    });
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            //optionsBuilder.UseLoggerFactory(_myLoggerFactory);
         }
     }
 }
