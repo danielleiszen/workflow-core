@@ -16,6 +16,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>Provides support to persist workflows running on Workflow Core to a MySQL database.</Description>
+    <AssemblyVersion>3.7.1.0</AssemblyVersion>
+    <FileVersion>3.7.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">

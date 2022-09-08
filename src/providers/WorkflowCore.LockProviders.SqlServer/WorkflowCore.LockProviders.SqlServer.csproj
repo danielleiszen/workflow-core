@@ -1,10 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Description>Distributed lock provider for Workflow-core using SQL Server</Description>
     <PackageProjectUrl>https://github.com/danielgerlag/workflow-core</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/danielgerlag/workflow-core/blob/master/LICENSE.md</PackageLicenseUrl>
+    <AssemblyVersion>3.7.1.0</AssemblyVersion>
+    <FileVersion>3.7.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

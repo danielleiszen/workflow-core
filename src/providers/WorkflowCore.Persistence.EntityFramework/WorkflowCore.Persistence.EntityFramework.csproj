@@ -15,8 +15,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>Base package for Workflow-core peristence providers using entity framework</Description>
-    <AssemblyVersion>3.6.65.0</AssemblyVersion>
-    <FileVersion>3.6.65.0</FileVersion>
+    <AssemblyVersion>3.6.66.0</AssemblyVersion>
+    <FileVersion>3.6.66.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

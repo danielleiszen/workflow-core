@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <AssemblyTitle>Workflow Core RavenDB Persistence Provider</AssemblyTitle>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>WorkflowCore.Persistence.RavenDB</AssemblyName>
     <PackageId>WorkflowCore.Persistence.RavenDB</PackageId>
     <PackageTags>workflow;.NET;Core;state machine;WorkflowCore;RavenDB</PackageTags>
@@ -14,6 +14,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>Provides support to persist workflows running on Workflow Core to a RavenDB database.</Description>
+    <AssemblyVersion>3.7.4.0</AssemblyVersion>
+    <FileVersion>3.7.4.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

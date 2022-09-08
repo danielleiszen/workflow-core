@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyTitle>Workflow Core</AssemblyTitle>
     <Authors>Daniel Gerlag</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>WorkflowCore</AssemblyName>
     <PackageId>WorkflowCore</PackageId>
     <PackageTags>workflow;.NET;Core;state machine</PackageTags>
@@ -11,6 +11,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>Workflow Core is a light weight workflow engine targeting .NET Standard.</Description>
+    <AssemblyVersion>3.7.1.0</AssemblyVersion>
+    <FileVersion>3.7.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

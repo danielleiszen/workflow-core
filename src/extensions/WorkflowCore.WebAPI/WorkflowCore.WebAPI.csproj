@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyTitle>Workflow Core REST API</AssemblyTitle>
     <Authors>Daniel Gerlag</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>WorkflowCore.WebAPI</AssemblyName>
     <PackageId>WorkflowCore.WebAPI</PackageId>
     <PackageTags>workflow;.NET;Core;state machine;WorkflowCore;REST;API</PackageTags>
@@ -15,6 +15,8 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Description>WebAPI wrapper for Workflow host</Description>
+    <AssemblyVersion>3.7.1.0</AssemblyVersion>
+    <FileVersion>3.7.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
